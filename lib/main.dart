@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learning/pages/homescreen.dart';
 import 'package:learning/pages/list.dart';
+import 'package:learning/pages/pageone.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: listViewLearn(),
+      home: Pageone(),
     );
   }
 }
